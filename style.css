@@ -1,0 +1,289 @@
+/*
+Theme Name: wpTheme_recipesForMulticookers
+Theme URI: 
+Description:  
+Version: 1.0
+Author: Александр
+Author URI: 
+*/
+/* сброс стилей браузеров */
+*	{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	/* border: 0 none; - скрывает hr */
+	} 
+/* Хэдер */
+#logo {
+		height: 100px;
+		float:left;	
+	}
+#logo img {
+
+		float: left; 
+		width: 300px; 
+		height: 75px;
+		border: none;
+	}
+.headline {
+	height: 100px;
+	line-height: 100px;
+}
+#fullHeader {
+	width: 100%;
+	background-color:#ffffff;
+}
+#header {
+		width: 980px;
+		height: 100px;
+		float:left;
+	}
+/* End of Header */
+
+/* Menu */
+.menu {
+		margin: 5px 0px 0px 0px;
+		display: block;
+		text-align: left;
+		font-weight: 700;
+		z-index: 10;
+	}
+.menu ul {display:inline;  color: white;   list-style-image: none;}
+.menu a:hover { color: yellow; opacity: 1;}
+.menu a {text-decoration:none; color: white; background: green; padding: 4px 4px;}
+.menu ul li {display:inline; padding-left: 0px; line-height: 1.9;}
+a { color: green; }
+#toggleMenu {	/* меню мобильной версии скрыто по умолчанию */	
+		display:none;
+		color: white;
+		z-index: 10;
+} 
+/* End of Menu */
+
+/* Basic settings */
+body {
+	max-width:1360px;
+	vertical-align: middle;
+	background:linear-gradient(#f2f2f2, #ffffff);
+	font-family: Georgia, serif;
+	font-size: 18px;
+	padding: 5px;
+	border: 2px solid lightgrey;
+	border-radius:5px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#content {
+	padding: 5px;
+	width: 680px;
+	float: left;
+	background-color:#ffffff;
+}
+h1, h2, h3, h4 {
+	font-weight: 700;
+	margin: 10px;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 20px;
+}
+p {
+	margin: 10px 0px;
+}
+
+ul {
+	padding: 0; margin: 10px;
+}
+li {
+	list-style-type: none;
+	background: url("images/li.png") no-repeat left center;  
+	background-position: 0px 7px;
+	padding: 5px 0px 0px 25px;
+	}	
+img {
+		display: block;
+		position: relative;
+		width: 98%;
+		height: 98%;
+		margin: 10px 1%;
+		z-index: 1;
+	}
+blockquote {
+	border-left: 4px solid green;
+	padding-left: 10px;
+	margin: 10px 10px 10px 30px;
+}
+
+/* comments */
+.comments {
+	}
+.comments img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	}
+.comments li {background: none; margin: 10px; padding: 5px; border: 1px LightGrey dotted;}
+label {display:block;}
+textarea {width: 95%;}
+
+/* sidebars */
+.sidebar  {
+	display:block;
+	width:310px;
+	max-width: 320px;
+	padding: 10px 5px 5px 10px;
+	float: left;
+	}  
+.sidebar ul {padding: 10px 0px 0px 0px;}
+.sidebar ul li {background: url(""); padding: 0px;}
+.sidebar .menu {
+		background: none; 
+}
+.sidebar .menu a {
+	background: none; 
+    text-decoration: none;
+    border-bottom: 2px solid green;
+	padding-bottom: 1px;
+	color: black;
+	font-weight: normal;
+}
+.widget-title {
+		background-color: lightyellow;
+		color: darkblue;
+		font-size:20px;
+		padding:5px;
+	}
+/* search form */
+.search-submit {	
+	padding: 0px 3px;
+	color: grey;
+}
+#footer {background: green; color: white;  padding: 10px 10px;	}
+
+/* ---------------- !!! СМЕНА ЭКРАНА !!! ---------------- */
+
+@media screen and (min-width: 1045px)and (max-width: 1367px) {
+	body {
+		width: 1045px;
+	}
+	#logo img {
+		padding:10px; 
+		width: 300px; 
+		height: 75px;
+		border:none;
+		margin: 0;
+	}
+	#header {
+		width: 665px;
+		height: 100px;
+		float:left;
+	}
+}
+
+/* ---------------- !!! СМЕНА ЭКРАНА !!! ---------------- */
+
+@media screen and (min-width: 701px)and (max-width: 1044px) {
+	body {
+		width: 700px;
+	}
+	#content {
+		width: 690px;
+	}
+}
+
+/* ---------------- !!! СМЕНА ЭКРАНА !!! ---------------- */
+
+@media screen and (max-width: 700px) {
+	body {	
+	padding:3px;
+	margin:0px;
+	}
+	
+	img {
+		display:block;
+		padding: 0% 1%;
+		width: 98%;
+		max-width: 98%;
+		height: 98%;
+		position:relative;
+		margin: 0 auto;
+		z-index: 1;
+	}
+	
+	#logo {
+		height: auto;
+		padding: 0% 1%;
+		width: 98%;
+		background-repeat: no-repeat;
+		font-size:28px;
+	}
+	
+	#logo img {
+		padding:10px; 
+		float:left; 
+		width: 98%; 
+		height: 75px;
+		border:none;
+	}
+	
+	#header {
+		height:  auto;
+		padding: 0% 1%;
+		width: 98%;
+	}
+
+	#toggleMenu {
+		font-size: 28px;	
+		text-align: center;	
+		display: block;		
+		background-color: green;	
+		color: yellow;
+	}
+	
+	.menu {
+		font-size: 22px;
+		/* border: 1px blue solid; */
+		background: green;
+		opacity: 0.9;
+		color: white;
+		padding-left: 10px;
+		display: none;
+	}
+
+	.menu {background: green; font-weight: 700;}
+	.menu p {background: green; color: white; margin: 0px 3px; padding: 3px 3px; text-transform: lowercase;}
+	.menu a:hover { color: khaki;}
+	.menu a {text-decoration: none; color: white; display: list-item;}
+	.menu ul {display: list-item; }
+	.menu ul li { line-height: 1.4; }
+	.menu ul li a { line-height: 1; }
+	
+	#content {
+		padding: 5px;
+		background-color:#fdfdfd;
+		width: 98%;
+	}
+
+	.sidebar  {
+		width: 100%;
+		padding: 5px;
+	} 
+	.widget-title {
+		padding: 5px;
+		margin-left:-13px;
+		width: 100%;
+	}
+	
+}
