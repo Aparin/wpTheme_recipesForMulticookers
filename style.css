@@ -53,10 +53,10 @@ Author URI:
 		z-index: 10;
 	}
 .menu ul {display:inline;  color: white;   list-style-image: none;}
-.menu a:hover { color: yellow; opacity: 1;}
-.menu a {text-decoration:none; color: white; background: green; padding: 4px 4px;}
+.menu a:hover { color: lightyellow; opacity: 1;}
+.menu a {text-decoration:none; color: white; background: Crimson; padding: 4px 4px;}
 .menu ul li {display:inline; padding-left: 0px; line-height: 1.9;}
-a { color: green; }
+a { color: Crimson; }
 #toggleMenu {	/* меню мобильной версии скрыто по умолчанию */	
 		display:none;
 		color: white;
@@ -121,7 +121,7 @@ img {
 		z-index: 1;
 	}
 blockquote {
-	border-left: 4px solid green;
+	border-left: 4px solid Crimson;
 	padding-left: 10px;
 	margin: 10px 10px 10px 30px;
 }
@@ -154,7 +154,7 @@ textarea {width: 95%;}
 .sidebar .menu a {
 	background: none; 
     text-decoration: none;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid Crimson;
 	padding-bottom: 1px;
 	color: black;
 	font-weight: normal;
@@ -170,7 +170,7 @@ textarea {width: 95%;}
 	padding: 0px 3px;
 	color: grey;
 }
-#footer {background: green; color: white;  padding: 10px 10px;	}
+#footer {background: Crimson; color: white;  padding: 10px 10px;	}
 
 /* ---------------- !!! СМЕНА ЭКРАНА !!! ---------------- */
 
@@ -248,22 +248,22 @@ textarea {width: 95%;}
 		font-size: 28px;	
 		text-align: center;	
 		display: block;		
-		background-color: green;	
-		color: yellow;
+		background-color: Crimson;	
+		color: lightyellow;
 	}
 	
 	.menu {
 		font-size: 22px;
 		/* border: 1px blue solid; */
-		background: green;
+		background: Crimson;
 		opacity: 0.9;
 		color: white;
 		padding-left: 10px;
 		display: none;
 	}
 
-	.menu {background: green; font-weight: 700;}
-	.menu p {background: green; color: white; margin: 0px 3px; padding: 3px 3px; text-transform: lowercase;}
+	.menu {background: Crimson; font-weight: 700;}
+	.menu p {background: Crimson; color: white; margin: 0px 3px; padding: 3px 3px; text-transform: lowercase;}
 	.menu a:hover { color: khaki;}
 	.menu a {text-decoration: none; color: white; display: list-item;}
 	.menu ul {display: list-item; }
