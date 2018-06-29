@@ -107,10 +107,11 @@ ul {
 	padding: 0; margin: 10px;
 }
 li {
-	list-style-type: none;
+	/* list-style-type: none;
 	background: url("images/li.png") no-repeat left center;  
-	background-position: 0px 7px;
-	padding: 5px 0px 0px 25px;
+	background-position: 0px 7px; */
+	list-style: inside;
+	padding: 5px 0px 0px 10px;
 	}	
 img {
 		display: block;
@@ -147,7 +148,16 @@ textarea {width: 95%;}
 	float: left;
 	}  
 .sidebar ul {padding: 10px 0px 0px 0px;}
-.sidebar ul li {background: url(""); padding: 0px;}
+.sidebar ul li {background: url(""); padding: 0px; margin-top: 7px;}
+.sidebar ul#npcatch {
+	padding: 1px;
+	margin: 1px;
+}
+#npcatch li {
+	list-style-type: none;
+	padding: 1px;
+	margin: 1px;
+}
 .sidebar .menu {
 		background: none; 
 }
